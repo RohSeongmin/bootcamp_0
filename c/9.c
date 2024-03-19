@@ -6,7 +6,18 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    // 양의 정수 n을 입력 받아 1부터 n까지의 합을 출력하는 프로그램을 작성하시오.
+    int n = 0, sum = 0;
+    scanf("%d", &n);
+    while( n <= 0){
+        printf("X\n");
+        scanf("%d", &n);
+    }
+
+    for(int i = 1; i <= n ; i ++){
+        sum += i;
+    }
+    printf("%d\n", sum);
 
     return 0;
 }

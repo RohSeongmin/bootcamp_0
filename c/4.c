@@ -6,7 +6,23 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
-
+    // 점수를 입력받아 점수에 따라 아래와 같이 등급을 출력하는 프로그램을 작성하시오.
+    int score = 0;
+    scanf("%d", &score);
+    if(score >=90 && score <= 100){
+        printf("A\n");
+    }
+    else if( score>=80 && score <= 90){
+        printf("B\n");
+    }
+    else if( score>=70 && score <= 80){
+        printf("C\n");
+    }
+    else if( score>=60 && score <= 70){
+        printf("D\n");
+    }
+    else{
+        printf("F\n");
+    }
     return 0;
 }

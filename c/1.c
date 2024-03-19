@@ -6,7 +6,14 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    // 세 자리 정수를 입력 받아 역순으로 출력하는 프로그램을 작성하시오
+    int num = 0, i = 0;
+    scanf("%d", &num);
+    
+   while(num > 0){
+        printf("%d", num % 10);
+        num = num / 10;
+    }
 
     return 0;
 }

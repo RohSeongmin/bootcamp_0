@@ -6,7 +6,13 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    // 나이를 입력받아 61세 이상이면 노인 할인을 해주는 교통카드 단말기 프로그램을 작성하시오.
+    int age = 0;
+    scanf("%d", &age);
+    if(age >= 61){
+        printf("DISCOUNT\n");
+    }
+    printf("BOARD\n");
 
     return 0;
 }
